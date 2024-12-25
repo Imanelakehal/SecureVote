@@ -137,7 +137,7 @@ class Blockchain:
     def blockStatus(self):
         if len(chain) == 0:
             return "Blockchain is empty"
-        elif lem(chain == 1):
+        elif len(chain == 1):
             return "Blockchain contains only the genesis block"
         else:
             return "Blockchain is out of the genesis block"
